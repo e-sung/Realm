@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   s.preserve_paths          = %w(build.sh include)
 
   s.ios.deployment_target   = '8.0'
-  s.ios.vendored_library    = 'core/librealmcore-ios.a'
+  s.ios.vendored_frameworks    = 'Realm.xcframework'
 
   s.osx.deployment_target   = '10.9'
   s.osx.vendored_library    = 'core/librealmcore-macosx.a'
