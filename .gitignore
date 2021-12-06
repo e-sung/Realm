@@ -10,9 +10,6 @@
 *.o
 *.d
 *.libdeps
-*.zip
-*.realm
-*.realm.lock
 
 # core
 core
@@ -30,10 +27,6 @@ build/
 # sh build.sh build-iphone
 /iphone-lib/include
 
-# sh build.sh ios-framework
-# sh build.sh package-examples
-*/Realm.framework
-Realm.framework
 
 # sh build.sh build-cocoa
 bin
