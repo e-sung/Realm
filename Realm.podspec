@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                               The Realm Mobile Database is a fast, easy-to-use replacement for Core Data & SQLite. Use it with the Realm Mobile Platform for realtime, automatic data sync. Works on iOS, macOS, tvOS & watchOS. Learn more and get help at https://realm.io.
                               DESC
   s.homepage                = "https://realm.io"
-  s.source                  = { :git => 'https://github.com/realm/realm-cocoa.git', :tag => "v#{s.version}", :submodules => true }
+  s.source                  = { :http: => 'http://github.com/e-sung/Realm/releases/download/3.20.0.xcframework/Realm.xcframework.zip' }
   s.author                  = { 'Realm' => 'help@realm.io' }
   s.library                 = 'c++', 'z'
   s.requires_arc            = true
