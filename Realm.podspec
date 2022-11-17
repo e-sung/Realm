@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version                 = version
   s.summary                 = 'Realm is a modern data framework & database for iOS, macOS, tvOS & watchOS.'
   s.homepage                = "https://realm.io"
-  s.source                  = { :http => 'http://github.com/e-sung/Realm/releases/download/5.5.1.xcframework/Realm.xcframework.zip' }
+  s.source                  = { :http => 'https://github.com/e-sung/Realm/releases/download/v5.5.1/Realm.xcframework.zip' }
   s.author                  = { 'Realm' => 'help@realm.io' }
   s.license                 = { :type => 'Apache 2.0', :file => 'LICENSE' }
 
